@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/docs/">
+    <File Path="docs\README.md" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src\ArchitectureTests\ArchitectureTests.csproj" Type="Classic C#" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests\ArchitectureTests.Tests\ArchitectureTests.Tests.csproj" Type="Classic C#" />
+  </Folder>
+</Solution>

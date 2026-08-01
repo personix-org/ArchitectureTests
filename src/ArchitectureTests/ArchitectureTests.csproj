@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <IsPackable>true</IsPackable>
+    <PackageId>Common.ArchitectureTests</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Pavel Kudrna</Authors>
+    <Description>
+      Shared Clean Architecture test helpers built on NetArchTest.Rules.
+      Provides ICleanArchitectureAssemblies, CleanArchitectureRules and xUnit base classes
+      so every solution can enforce standard layer dependency rules with minimal boilerplate.
+    </Description>
+    <PackageTags>architecture;clean-architecture;netarchtest;testing</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\docs\README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NetArchTest.Rules" />
+    <PackageReference Include="xunit" />
+  </ItemGroup>
+
+</Project>
