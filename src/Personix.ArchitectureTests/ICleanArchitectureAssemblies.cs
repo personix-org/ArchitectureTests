@@ -1,7 +1,7 @@
 using System.Reflection;
 using NetArchTest.Rules;
 
-namespace Common.ArchitectureTests;
+namespace Personix.ArchitectureTests;
 
 /// <summary>
 /// Maps the assemblies of a solution to Clean Architecture layers.

@@ -1,4 +1,4 @@
-namespace Common.ArchitectureTests;
+namespace Personix.ArchitectureTests;
 
 /// <summary>
 /// Result of a single architecture rule evaluation.

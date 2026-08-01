@@ -1,7 +1,7 @@
 using System.Reflection;
 using NetArchTest.Rules;
 
-namespace Common.ArchitectureTests;
+namespace Personix.ArchitectureTests;
 
 /// <summary>
 /// Standard Clean Architecture layer dependency rules built on <c>NetArchTest.Rules</c>.

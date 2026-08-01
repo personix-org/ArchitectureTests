@@ -1,6 +1,6 @@
 using Xunit;
 
-namespace Common.ArchitectureTests;
+namespace Personix.ArchitectureTests;
 
 /// <summary>
 /// Base class for xUnit architecture test classes.

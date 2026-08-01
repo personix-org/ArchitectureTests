@@ -18,7 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\ArchitectureTests\ArchitectureTests.csproj" />
+    <ProjectReference Include="..\..\src\Personix.ArchitectureTests\Personix.ArchitectureTests.csproj" />
   </ItemGroup>
 
 </Project>

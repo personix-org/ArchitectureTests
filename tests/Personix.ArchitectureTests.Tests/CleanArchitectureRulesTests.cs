@@ -1,8 +1,8 @@
 using System.Reflection;
-using Common.ArchitectureTests;
+using Personix.ArchitectureTests;
 using Xunit;
 
-namespace ArchitectureTests.Tests;
+namespace Personix.ArchitectureTests.Tests;
 
 /// <summary>
 /// Self-tests: verifies that CleanArchitectureRules correctly identifies violations

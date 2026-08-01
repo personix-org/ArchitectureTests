@@ -1,4 +1,4 @@
-# Common.ArchitectureTests
+# Personix.ArchitectureTests
 
 Shared Clean Architecture enforcement helpers built on [NetArchTest.Rules](https://github.com/BenMorris/NetArchTest).
 
