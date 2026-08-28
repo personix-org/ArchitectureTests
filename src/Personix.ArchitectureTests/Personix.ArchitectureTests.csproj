@@ -1,42 +1,42 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <GenerateDocumentationFile>true</GenerateDocumentationFile>
-    <!-- The project references xunit so it can expose test base classes, which makes the SDK
+  <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  <!-- The project references xunit so it can expose test base classes, which makes the SDK
          treat it as a test project and makes `dotnet test` try to run the library itself.
          It holds no tests of its own — those live in tests/Personix.ArchitectureTests.Tests. -->
-    <IsTestProject>false</IsTestProject>
+  <IsTestProject>false</IsTestProject>
   </PropertyGroup>
 
   <PropertyGroup>
-    <IsPackable>true</IsPackable>
-    <PackageId>Personix.ArchitectureTests</PackageId>
-    <Version>1.1.0</Version>
-    <PackageReleaseNotes>1.1.0 — adds a net11.0 target alongside net10.0. No API change.</PackageReleaseNotes>
-    <Authors>Pavel Kudrna</Authors>
-    <Company>Personix</Company>
-    <Description>
-      Shared Clean Architecture test helpers built on NetArchTest.Rules.
-      Provides ICleanArchitectureAssemblies, CleanArchitectureRules and xUnit base classes
-      so every solution can enforce standard layer dependency rules with minimal boilerplate.
-    </Description>
-    <PackageTags>architecture;clean-architecture;netarchtest;testing</PackageTags>
-    <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageProjectUrl>https://github.com/personix-org/ArchitectureTests</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/personix-org/ArchitectureTests</RepositoryUrl>
-    <RepositoryType>git</RepositoryType>
-    <PackageReadmeFile>README.md</PackageReadmeFile>
-    <PublishRepositoryUrl>true</PublishRepositoryUrl>
-    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+  <IsPackable>true</IsPackable>
+  <PackageId>Personix.ArchitectureTests</PackageId>
+  <Version>1.1.0</Version>
+  <PackageReleaseNotes>1.1.0 — adds a net11.0 target alongside net10.0. No API change.</PackageReleaseNotes>
+  <Authors>Pavel Kudrna</Authors>
+  <Company>Personix</Company>
+  <Description>
+   Shared Clean Architecture test helpers built on NetArchTest.Rules.
+   Provides ICleanArchitectureAssemblies, CleanArchitectureRules and xUnit base classes
+   so every solution can enforce standard layer dependency rules with minimal boilerplate.
+  </Description>
+  <PackageTags>architecture;clean-architecture;netarchtest;testing</PackageTags>
+  <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  <PackageProjectUrl>https://github.com/personix-org/ArchitectureTests</PackageProjectUrl>
+  <RepositoryUrl>https://github.com/personix-org/ArchitectureTests</RepositoryUrl>
+  <RepositoryType>git</RepositoryType>
+  <PackageReadmeFile>README.md</PackageReadmeFile>
+  <PublishRepositoryUrl>true</PublishRepositoryUrl>
+  <EmbedUntrackedSources>true</EmbedUntrackedSources>
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="..\..\docs\README.md" Pack="true" PackagePath="\" />
+  <None Include="..\..\docs\README.md" Pack="true" PackagePath="\" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="NetArchTest.Rules" />
-    <PackageReference Include="xunit" />
+  <PackageReference Include="NetArchTest.Rules" />
+  <PackageReference Include="xunit" />
   </ItemGroup>
 
 </Project>
